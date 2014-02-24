@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a637be-5a9b-4e8c-9973-5701da799129" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gigsetup.iws" />
@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="8" selection-start="3433" selection-end="3433" vertical-scroll-proportion="0.06612903" vertical-offset="2134" max-vertical-offset="6285">
+            <state line="145" column="8" selection-start="3433" selection-end="3433" vertical-scroll-proportion="-1.5769231" vertical-offset="2134" max-vertical-offset="6285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.14469454" vertical-offset="0" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -58,7 +67,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/data/hello-couchbase.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/views/404.html" />
         <option value="$PROJECT_DIR$/lib/controllers/api.js" />
@@ -74,6 +82,7 @@
         <option value="$PROJECT_DIR$/app/views/partials/navbar.html" />
         <option value="$PROJECT_DIR$/lib/routes.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -275,7 +284,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="8" selection-start="3433" selection-end="3433" vertical-scroll-proportion="0.06612903" vertical-offset="2134" max-vertical-offset="6285">
+        <state line="145" column="8" selection-start="3433" selection-end="3433" vertical-scroll-proportion="-1.5769231" vertical-offset="2134" max-vertical-offset="6285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="135" selection-end="135" vertical-scroll-proportion="0.14469454" vertical-offset="0" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
