@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a637be-5a9b-4e8c-9973-5701da799129" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shopifytest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/config/express.js" afterPath="$PROJECT_DIR$/lib/config/express.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gigsetup.iws" />
@@ -28,51 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6135">
-              <folding>
-                <marker date="1397814261000" expanded="true" signature="303:11861" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="561:10393" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="608:737" placeholder="{&quot;dist&quot;: 'dist'...}" />
-                <marker date="1397814261000" expanded="true" signature="796:1212" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="819:881" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="1228:1343" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="1250:1333" placeholder="{&quot;url&quot;: 'http://localhost:&lt;%= express.options.port %&gt;'...}" />
-                <marker date="1397814261000" expanded="true" signature="6180:6469" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="6200:6459" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="6225:6445" placeholder="[...]" />
-                <marker date="1397814261000" expanded="true" signature="6226:6444" placeholder="{&quot;expand&quot;: true...}" />
-                <marker date="1397814261000" expanded="true" signature="6488:6762" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="6508:6752" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="10474:10503" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="10557:10921" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="10590:10692" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="10717:10913" placeholder="[...]" />
-                <marker date="1397814261000" expanded="true" signature="10970:11115" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="11150:11248" placeholder="[...]" />
-                <marker date="1397814261000" expanded="true" signature="11284:11556" placeholder="[...]" />
-                <marker date="1397814261000" expanded="true" signature="11605:11756" placeholder="{...}" />
-                <marker date="1397814261000" expanded="true" signature="11794:11857" placeholder="[...]" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <file leaf-file-name="express.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/config/express.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="31" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.3580902" vertical-offset="330" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
@@ -83,17 +49,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="37" column="5" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1590">
               <folding>
-                <marker date="1397819168000" expanded="true" signature="995:1156" placeholder="{...}" />
+                <marker date="1397821662000" expanded="true" signature="995:1156" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,10 +82,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <file leaf-file-name="af5ff011.main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/app/styles/af5ff011.main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="12" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.60294116" vertical-offset="395" max-vertical-offset="1290">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1d7769e0.vendor.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/app/styles/1d7769e0.vendor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -178,10 +153,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/lib/config/express.js" />
         <option value="$PROJECT_DIR$/app/views/shopifytest.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
+        <option value="$PROJECT_DIR$/lib/config/express.js" />
       </list>
     </option>
   </component>
@@ -258,6 +233,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,43 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gigsetup.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gigsetup.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gigsetup.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -327,6 +320,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gigsetup.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -473,20 +470,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="7" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/passport/lib/http/request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="0" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1575">
@@ -633,11 +616,6 @@
         <state line="73" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="970" max-vertical-offset="2025" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/config/env/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
@@ -651,11 +629,6 @@
     <entry file="file://$PROJECT_DIR$/lib/config/env/development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
@@ -700,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="774" selection-end="774" vertical-scroll-proportion="0.8875" vertical-offset="170" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -718,28 +684,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="17" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6135">
           <folding>
-            <marker date="1397814261000" expanded="true" signature="303:11861" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="561:10393" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="608:737" placeholder="{&quot;dist&quot;: 'dist'...}" />
-            <marker date="1397814261000" expanded="true" signature="796:1212" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="819:881" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="1228:1343" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="1250:1333" placeholder="{&quot;url&quot;: 'http://localhost:&lt;%= express.options.port %&gt;'...}" />
-            <marker date="1397814261000" expanded="true" signature="6180:6469" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="6200:6459" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="6225:6445" placeholder="[...]" />
-            <marker date="1397814261000" expanded="true" signature="6226:6444" placeholder="{&quot;expand&quot;: true...}" />
-            <marker date="1397814261000" expanded="true" signature="6488:6762" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="6508:6752" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="10474:10503" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="10557:10921" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="10590:10692" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="10717:10913" placeholder="[...]" />
-            <marker date="1397814261000" expanded="true" signature="10970:11115" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="11150:11248" placeholder="[...]" />
-            <marker date="1397814261000" expanded="true" signature="11284:11556" placeholder="[...]" />
-            <marker date="1397814261000" expanded="true" signature="11605:11756" placeholder="{...}" />
-            <marker date="1397814261000" expanded="true" signature="11794:11857" placeholder="[...]" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{&quot;dist&quot;: 'dist'...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: 'http://localhost:&lt;%= express.options.port %&gt;'...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{&quot;expand&quot;: true...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1397814261000" expanded="true" signature="-1:-1" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -769,15 +735,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="5" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1590">
           <folding>
-            <marker date="1397819168000" expanded="true" signature="995:1156" placeholder="{...}" />
+            <marker date="1397821662000" expanded="true" signature="995:1156" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="845" selection-end="845" vertical-scroll-proportion="0.3580902" vertical-offset="285" max-vertical-offset="1590">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,6 +778,48 @@
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="12" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.60294116" vertical-offset="395" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/app/styles/1d7769e0.vendor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/app/styles/af5ff011.main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="24" selection-start="774" selection-end="774" vertical-scroll-proportion="0.72148544" vertical-offset="253" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.3580902" vertical-offset="330" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
