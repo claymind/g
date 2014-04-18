@@ -1,0 +1,17 @@
+{
+    "all": [
+        {"title": "Family Overview Spotlight", "listName" : "family-overview-spotlight"},
+        {"title": "Family Overview Wall", "listName" : "family-overview-wall"},
+        {"title": "Family Article Landing Wall", "listName" : "family-articlelanding-wall"},
+        {"title": "Hero Overview Spotlight", "listName" : "hero-overview-spotlight"},
+        {"title": "Hero Overview Wall", "listName" : "hero-overview-wall"},
+        {"title": "Hero Article Landing Wall", "listName" : "hero-articlelanding-wall"},
+        {"title": "Summer Overview Spotlight", "listName" : "summer-overview-spotlight"},
+        {"title": "Summer Overview Wall", "listName" : "summer-overview-wall"},
+        {"title": "Summer Article Landing Wall", "listName" : "summer-articlelanding-wall"},
+        {"title": "Movie News Spotlight", "listName" : "movie-news-spotlight"},
+        {"title": "Movie News Wall", "listName" : "movie-news-wall"},
+        {"title": "Fandango Guides", "listName" : "fandango-guides"}
+    ]
+}
+

@@ -13,15 +13,33 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="styles/1d7769e0.vendor.css"/>
     <link rel="stylesheet" href="styles/b435e14e.main.css"/>
+
+      <script type="text/javascript">
+          var ShopifyStoreConfig = {shop:"barclayscoffeeandtea.myshopify.com", collections:[22323133]};
+          (function() {
+              var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+              s.src = "//widgets.shopifyapps.com/assets/shopifystore.js";
+              var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+          })();
+      </script>
+      <noscript>Please enable javascript, or <a href="http://barclayscoffeeandtea.myshopify.com">click here</a> to visit my <a href="http://www.shopify.com/tour/ecommerce-website">ecommerce web site</a> powered by Shopify.</noscript>
   </head>
   <body ng-app="gigsetupApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <h4><%= profile %></h4>
-    <div class="container" ng-view=""></div>
+    <a href="/auth/twitter">Login with Twitter</a>
+    <a href="/logout">Logout</a>
+
+    <p>Welcome, <%= session.passport.user ? session.passport.user : 'guest' %>!</p>
+
+    <%= title %>
+    <a href="/index2">Bettys Italian Luxury Coffee</a>
+    <p></p>
+    <a href="/index3">Buy a product</a>
+    <p></p>
+    <a href='#shopify-store'>View my Store</a>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -41,6 +59,6 @@
 
     <script src="scripts/431ec026.vendor.js"></script>
 
-        <script src="scripts/311262f6.scripts.js"></script>
+        <script src="scripts/335dc67f.scripts.js"></script>
 </body>
 </html>
