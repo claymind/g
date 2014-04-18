@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<a href="/auth/twitter">Login with Twitter</a>
+<a href="/logout">Logout</a>
+
+<p>Welcome, <%= session.passport.user ? session.passport.user : 'guest' %>!</p>
+
+<%= title %>
+<a href="/index2">Bettys Italian Luxury Coffee</a>
+<p></p>
+<a href="/index3">Buy a product</a>
+<p></p>
+<a href='#shopify-store'>View my Store</a>
+</body>
+</html>

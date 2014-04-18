@@ -30,22 +30,18 @@
       </script>
       <noscript>Please enable javascript, or <a href="http://barclayscoffeeandtea.myshopify.com">click here</a> to visit my <a href="http://www.shopify.com/tour/ecommerce-website">ecommerce web site</a> powered by Shopify.</noscript>
   </head>
-  <body ng-app="gigsetupApp">
+  <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <a href="/auth/twitter">Login with Twitter</a>
-    <a href="/logout">Logout</a>
+    <div class="jumbotron">
+        <p class="lead">
+            <img src="images/gigsetup-banner.jpg" alt="Welcome to GigSetup" />
+        </p>
+    </div>
 
-    <p>Welcome, <%= session.passport.user ? session.passport.user : 'guest' %>!</p>
 
-    <%= title %>
-    <a href="/index2">Bettys Italian Luxury Coffee</a>
-    <p></p>
-    <a href="/index3">Buy a product</a>
-    <p></p>
-    <a href='#shopify-store'>View my Store</a>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
